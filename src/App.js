@@ -1,23 +1,39 @@
-import logo from './logo.svg';
 import './App.css';
+import './Css/Styling.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <h1>Usher High School</h1>
+      <h1>Student Portal</h1>
+      <button >Register New Student</button> 
+      <table class = 'center'>
+        <caption>All Students</caption>
+        <thead>
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>National Id</th>
+          <th>Tasks</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Mercy</td>
+            <td>Ngwenya</td>
+            <td>09-3456123D15</td>
+            <td><button>View Student</button> <button>Edit Student</button> <button>Delete Student</button></td>
+          </tr>
+
+          <tr>
+            <td>Charity</td>
+            <td>Moyo</td>
+            <td>23-3456123K15</td>
+            <td><button>View Student</button> <button>Edit Student</button> <button>Delete Student</button></td>
+          </tr>
+        </tbody>
+        <tr>
+          
+          </tr>
+      </table>
     </div>
   );
 }
