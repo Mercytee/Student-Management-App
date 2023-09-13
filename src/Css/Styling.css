@@ -29,7 +29,7 @@ body {
     text-align: left;
     text-underline-position: below;
   }
-.button {
-  float: right;
+.button-container {
+  display: flex;
+  justify-content: center;
 }
- 

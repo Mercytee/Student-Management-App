@@ -6,7 +6,9 @@ function App() {
     <div>
       <h1>Usher High School</h1>
       <h1>Student Portal</h1>
-      <button >Register New Student</button> 
+      <div className="button-container">
+        <button className="register-button">Register New Student</button> 
+      </div>
       <table class = 'center'>
         <caption>All Students</caption>
         <thead>
