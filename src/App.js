@@ -1,5 +1,5 @@
 import './App.css';
-import './Css/Styling.css';
+import './css/Styling.css';
 
 function App() {
   return (
@@ -22,14 +22,14 @@ function App() {
             <td>Mercy</td>
             <td>Ngwenya</td>
             <td>09-3456123D15</td>
-            <td><button>View Student</button> <button>Edit Student</button> <button>Delete Student</button></td>
+            <td><button>View</button> <button>Edit</button> <button>Delete</button></td>
           </tr>
 
           <tr>
             <td>Charity</td>
             <td>Moyo</td>
             <td>23-3456123K15</td>
-            <td><button>View Student</button> <button>Edit Student</button> <button>Delete Student</button></td>
+            <td><button>View</button> <button>Edit</button> <button>Delete</button></td>
           </tr>
         </tbody>
         <tr>
