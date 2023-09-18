@@ -1,0 +1,51 @@
+body {
+    background-color: rgb(178, 189, 152);
+    border-spacing: 0;
+  }
+  h1 {
+    color: black;
+    text-align: center;
+    font-size: xx-large;
+    font-style: oblique;
+  }
+  
+  h2 {
+    color: black;
+    text-align: center;
+  }
+  h3 {
+    color: black;
+    text-align: center;
+  }
+  
+  .label-container {
+    display: flex;
+    background-color: blue;
+    width: 600px;
+    padding-bottom: 20px;
+    justify-content: center;
+  }
+  input{
+    width: 100%;
+  }
+  .button-container  {
+    display: flex;
+    width: inherit;
+    padding: 10px;
+    font-size: xx-large;
+    text-align: auto;
+  }
+  button{
+    width: 188px;
+    display: flex;
+    text-align: auto;
+  }
+
+.main{
+  justify-content: center;
+  display: flex;
+  padding: 40px;
+  
+}
+
+  
