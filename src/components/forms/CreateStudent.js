@@ -7,68 +7,74 @@ const CreateStudent = () =>{
   
    
     return(
-        <form>
-           
-            <div className='main'>
-            <main>
-            <h1>Usher High School</h1>
+        <div>
+                 <h1>Usher High School</h1>
             <br />
             <h2>New Student Registration Form</h2>
             <br />
             <h3>Personal Information</h3>
             <br />
-            <div className = "label-container">
-            <label>
-                First Name:
-                <br />
-                <input
-                type = "text"
-                value = {firstName}
-                />
-                
-            </label>
-            <br />
+
+            <form>
+           
+           <div className='main'>
+           <main>
       
-            </div>
-
-            <div className = "label-container">
-            <label>
-                Last Name:
-                <br />
-                <input
-                type = "text"
-                value = {firstName}
-                />
-                
-            </label>
-            <br />
-            
-            </div>
-
-            <div className = "label-container">
-            <label>
-                National Id:
-                <br />
-                <input
-                type = "text"
-                value = {firstName}
-                />
+           <div >
+           <label>
+               First Name:
+               <br />
+               <input
+               type = "text"
+               value = {firstName}
+               onChange={(e)=>{console.log(e.target.value)}}
+               />
                
-            </label>
-            <br />
-            
-            </div>
-            <div className='label-container'>
-            <button>SUBMIT</button>
+           </label>
+           <br />
+     
+           </div>
 
-            </div>
+           <div >
+           <label>
+               Last Name:
+               <br />
+               <input
+               type = "text"
+               value = {firstName}
+               />
+               
+           </label>
+           <br />
+           
+           </div>
 
-            </main>
-            </div>
-         
+           <div >
+           <label>
+               National Id:
+               <br />
+               <input
+               type = "text"
+               value = {firstName}
+               />
+              
+           </label>
+           <br />
+           
+           </div>
+           <div id="submit-button">
+           <button>SUBMIT</button>
+
+           </div>
+
+           </main>
+           </div>
+        
+      
+           
+       </form>
+        </div>
        
-            
-        </form>
     )
     
 };;
