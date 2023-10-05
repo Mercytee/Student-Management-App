@@ -1,62 +1,62 @@
 body {
-    background-color: rgb(178, 189, 152);
-    border-spacing: 0;
-  }
-  h1 {
-    color: black;
-    text-align: center;
-    font-size: xx-large;
-    font-style: oblique;
-  }
-  
-  h2 {
-    color: black;
-    text-align: center;
-  }
-  h3 {
-    color: black;
-    text-align: center;
-  }
-  
-  .label-container {
-    display: flex;
-    background-color: rgb(233, 233, 242);
-    width: 600px;
-    padding-bottom: 20px;
-    justify-content: center;
-  }
-  input{
-    width: 100%;
-  }
-  .button-container  {
-    display: flex;
-    width: auto;
-    padding: 10px;
-    font-size: xx-large;
-    text-align: auto;
-  }
-  button{
-    width: 100%;
-    /* display: flex; */
-    text-align: center;
-    font-style: oblique;
-    font-size: large;
-  }
+  background-color: rgb(178, 189, 152);
+  border-spacing: 0;
+}
+h1 {
+  color: black;
+  text-align: center;
+  font-size: xx-large;
+  font-style: oblique;
+}
+
+h2 {
+  color: black;
+  text-align: center;
+}
+h3 {
+  color: black;
+  text-align: center;
+}
+
+.label-container {
+  display: flex;
+  background-color: rgb(233, 233, 242);
+  width: 600px;
+  padding-bottom: 20px;
+  justify-content: center;
+}
+input{
+  width: 100%;
+}
+.button-container  {
+  display: flex;
+  width: auto;
+  padding: 10px;
+  font-size: xx-large;
+  text-align: auto;
+}
+button{
+  width: 100%;
+  /* display: flex; */
+  text-align: center;
+  font-style: oblique;
+  font-size: large;
+}
 
 .main{
-  justify-content: center;
-  display: flex;
-  background-color: azure;
-  padding-bottom: 40px;
-    
+justify-content: center;
+display: flex;
+background-color: azure;
+padding-bottom: 40px;
+  
 }
 main{
-  width: 30%;
+width: 30%;
 }
 main>div{
-  margin-bottom: 10px;
+margin-bottom: 10px;
 }
 
 #submit-button{
-  padding-top: 10px;
+padding-top: 10px;
 }
